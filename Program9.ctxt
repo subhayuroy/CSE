@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Program9()
+comment1.params=
+comment1.target=void\ input()
+comment2.params=a
+comment2.target=boolean\ Increasing(int)
+comment3.params=a
+comment3.target=boolean\ Decreasing(int)
+comment4.params=
+comment4.target=void\ Bouncy()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
