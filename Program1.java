@@ -49,7 +49,7 @@ class Program1
          System.out.print(d+"rd ");//For Printing succeeding of last digit of a number
          System.out.println(month[m]+" "+y);
     }
-    public static void main(String arg[])
+    public static void main(String []arg)
     {
         Program1 ob = new Program1();//Object Creation
         ob.compute();//Object Calling
