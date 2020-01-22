@@ -10,10 +10,10 @@ class Program4
     }
     void input()
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a sentence= ");
-        s=sc.nextLine();//User-Input
-        s=s.trim().toUpperCase();//To take Capitalised form of String
+        s = sc.nextLine();//User-Input
+        s = s.trim().toUpperCase();//To take Capitalised form of String
     }
     void freq()
     {
@@ -38,7 +38,7 @@ class Program4
     void show()
     {
         System.out.println("The Histogram is:");//Printing statement
-        for(char c='A';c<='Z';c++)
+        for(char c ='A';c<='Z';c++)
           System.out.print(c);//1st Line to form Tabular Format 
         System.out.println();
         for(int i=0;i<=highestFreq();i++)
@@ -55,7 +55,7 @@ class Program4
     }
     public static void main(String args[])
     {
-        Program4 ob= new Program4();//Object creation
+        Program4 ob = new Program4();//Object creation
         ob.input();
         ob.freq();
         ob.show();
