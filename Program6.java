@@ -6,10 +6,10 @@ class Program6
       int x,dummy,remainder,i=0,vampire,f1=0,f2=0;
       boolean isvamp= false;
       int arr[]=new int[4];
-      Scanner sc= new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
       System.out.print("Enter a 4 digit no.= ");
-      x=sc.nextInt();//User-input
-      dummy= x;//To store the number in a temporary variable
+      x = sc.nextInt();//User-input
+      dummy = x;//To store the number in a temporary variable
       while(dummy!=0)
       {
           remainder= dummy%10;//To extract the last digit
