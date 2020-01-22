@@ -8,9 +8,9 @@ class Program5
     }
     void take()throws IOException
     {
-        BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter a sentence= ");
-        s=br.readLine().trim();
+        s = br.readLine().trim();
         String t="";
         for(int i=0;i<s.length()-1;i++)
         {
@@ -68,7 +68,7 @@ class Program5
     }
     public static void main(String arg[])throws IOException
     {
-        Program5 ob= new Program5();
+        Program5 ob = new Program5();
         ob.take();
         ob.show();
     }
