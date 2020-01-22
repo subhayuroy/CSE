@@ -5,11 +5,11 @@ class Program3 extends Fraction//Use Inheritance
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter numerator and denominator of 1st fraction:");
-		int n1=sc.nextInt();//User-Input
-		int d1=sc.nextInt();//User-Input
+		int n1 = sc.nextInt();//User-Input
+		int d1 = sc.nextInt();//User-Input
 		System.out.println("Enter numerator and denominator of 2nd fraction:");
-		int n2=sc.nextInt();//User-Input
-		int d2=sc.nextInt();//User-Input
+		int n2 = sc.nextInt();//User-Input
+		int d2 = sc.nextInt();//User-Input
 		Fraction ob1= new Fraction(n1,d1);//Object creation
 		Fraction ob2=new Fraction(n2,d2);//Object creation
 		Fraction ob3=new Fraction(0,0);//Object creation
