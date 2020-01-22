@@ -15,7 +15,7 @@ class Program8
 	}
 	public static void main(String arg[])
 	{
-		Program8 ob=new Program8();//Object creation
+		Program8 ob = new Program8();//Object creation
 		ob.accept();
 		ob.display(n);
 	}//End of main()
