@@ -1,6 +1,6 @@
 class Program7
 {
-	static boolean isUnique(String q)
+    static boolean isUnique(String q)
     {
         int A[] = {0,0,0,0,0,0,0,0,0,0}; //to store frequency of every digit from '0' to '9'
         int i, flag = 0;
