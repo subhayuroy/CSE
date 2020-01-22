@@ -8,9 +8,9 @@ class Program9
     }
      void input()
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
-        n=sc.nextInt();//User-input
+        n = sc.nextInt();//User-input
     }
     boolean Increasing(int a)//For Incraesing number
     {
@@ -65,7 +65,7 @@ class Program9
     }
     public static void main(String args[])
     {
-        Program9 ob=new Program9();//Object Creation
+        Program9 ob = new Program9();//Object Creation
         ob.input();
         ob.Bouncy();
     }//End of main()
