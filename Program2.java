@@ -40,7 +40,7 @@ class Program2
     }
     public static void main(String arg[])
     {
-        Program2 ob= new Program2();//Object Creation
+        Program2 ob = new Program2();//Object Creation
         ob.compute();
     }//End of main()
 }//End of class
